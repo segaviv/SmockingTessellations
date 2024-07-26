@@ -1,0 +1,6 @@
+build/
+.vscode/
+.cache/
+.polyscope.ini
+.DS_Store
+rel/

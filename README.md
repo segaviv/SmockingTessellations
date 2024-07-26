@@ -29,11 +29,20 @@ Our method combines the computation of directional fields with continuous optimi
 5. extract the 2D smocking pattern from Tangram since they have one-to-one correspondence
 
 ## Implementation
-### main functions
-blablabla
+### Compiling steps
+The usual
+```bash
+git clone https://github.com/segaviv/SmockingTessellations.git
+mkdir SmockingTessellations/build && cd $_
+cmake -DCMAKE_BUILD_TYPE=Release ..
+make -j
+```
 ### how to use
-blablabla 
-
+```bash
+./smocking_tessellations [path_to_mesh]
+```
+and follow the UI to generate a preview of the smocked result.
+Currently only translational symmetry (with a few choices for smocking patterns) and a 3 Resch pattern is implemented.
 
 ## Comments
 ### Acknowledgements
