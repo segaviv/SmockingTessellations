@@ -32,7 +32,7 @@ FetchContent_Declare(
 find_package(Eigen3 NO_MODULE QUIET)
 # CGAL.
 FetchContent_Declare(
-  CGAL URL https://github.com/CGAL/cgal/releases/download/v5.6/CGAL-5.6.tar.xz
+  CGAL URL https://github.com/CGAL/cgal/releases/download/v5.6.2/CGAL-5.6.2.tar.xz
            CONFIGURE_COMMAND "" BUILD_COMMAND "")
 FetchContent_Populate(CGAL)
 set(CGAL_DIR ${cgal_SOURCE_DIR})
